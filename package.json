@@ -1,0 +1,33 @@
+{
+  "name": "couch-surfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js && cd client && npm start",
+    "server": "node server.js",
+    "client": " cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caycebrown/Couch-Surfer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caycebrown/Couch-Surfer/issues"
+  },
+  "homepage": "https://github.com/caycebrown/Couch-Surfer#readme",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "concurrently": "^4.1.0",
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.11",
+    "sequelize-cli": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
