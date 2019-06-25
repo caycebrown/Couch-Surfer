@@ -1,0 +1,17 @@
+#menu {
+    background-color: #0a2463;
+    font-weight: bolder;
+}
+
+.menu-item {
+    padding-top: 20px;
+    height: 24vh;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+a {
+    /*color: #35ffff;*/
+    color: #fa567f;
+}

@@ -1,0 +1,31 @@
+.row {
+    width: 100%;
+}
+
+#header{
+    /*background-color: #d8315b;*/
+    background-color: #3e92cc;
+}
+
+.col {
+    text-align: center;
+    color: white;
+}
+
+
+
+#logo {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+#logo h3 {
+    padding-left: 10px;
+}
+
+#login .row {
+    justify-content: flex-end;
+    align-content: center;
+    padding-right: 40px;
+}

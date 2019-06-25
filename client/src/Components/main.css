@@ -1,0 +1,26 @@
+.col{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    background-color: white;
+    color: black;
+}
+
+#main.col-11 {
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#couch {
+    width: 100%;
+    height: 50%;
+}

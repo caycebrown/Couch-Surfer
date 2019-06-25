@@ -1,3 +1,6 @@
-body {
+body, html, .container-fluid {
   margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: darkslateblue;
 };
