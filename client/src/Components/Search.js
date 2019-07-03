@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from './header';
+import SearchBody from './search-body';
 
 const Search = () => (
-    <div>
+    <div className="container-fluid">
         <Header />
-        <h1>Search Page</h1>
+        <SearchBody />
     </div>
 )
 
